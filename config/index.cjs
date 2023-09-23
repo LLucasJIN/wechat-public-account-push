@@ -50,7 +50,7 @@ const USER_CONFIG = {
     {
       name: '自己',
       id: 'o2iug6Sx0IQXXCPhgPDDXJZrwSsc',
-      useTemplateId: 'OTdf5QtqNuIRh6m4-_IBIsj79iieR7LCKPRajmxRorE',
+      useTemplateId: 'x93yEUreBcV48-y9hQ6XGHvNQ1S2lTa9xfbWwBqtEkM',
       province: '广东',
       city: '广州',
       horoscopeDate: '10-10',
@@ -86,7 +86,6 @@ const USER_CONFIG = {
     {
       name: '宝贝',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'o2iug6ZZlpvwfJy6uxowlsLHYX0g',
     },
      {
       name: '自己',
