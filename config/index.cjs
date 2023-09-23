@@ -79,22 +79,23 @@ const USER_CONFIG = {
   ],
 
 
-  // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: 'O_VRGMhhanmZQds1JpKsU6YYl9fM3nwmqi5uxJ2ENx4',
+    // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
+  CALLBACK_TEMPLATE_ID: '',
 
   CALLBACK_USERS: [
-  {
-      name: '自己',
+    {
+      name: '宝贝',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'o2iug6Sx0IQXXCPhgPDDXJZrwSsc',
-    }，
+      id: 'o2iug6ZZlpvwfJy6uxowlsLHYX0g',
+    },
      {
       name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'o2iug6Sx0IQXXCPhgPDDXJZrwSsc',
-    }，  
-],
-   
+    }
+  ],
+
+}
 
 module.exports = USER_CONFIG
 
