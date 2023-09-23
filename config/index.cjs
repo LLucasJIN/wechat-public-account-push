@@ -20,8 +20,8 @@ const USER_CONFIG = {
       id: 'o2iug6ZZlpvwfJy6uxowlsLHYX0g',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'GB2adoguvo09NUYpTMYHyXbHWc7c48PV3gEYPJT_V-A',
-        PROVINCE: '内蒙古',
-        CITY: '呼和浩特',
+      province: '广东',
+      city: '广州',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '02-26',
       horoscopeDateType: '水瓶座',
