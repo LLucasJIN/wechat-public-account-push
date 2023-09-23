@@ -17,7 +17,7 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '宝贝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'o2iug6ZZlpvwfJy6uxowlsLHYX0g',
+      id: '',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'ZVyAwrbDQjaC66qbyzVYyY5UM2FEwAZhu0w8iz13YlE',
       province: '内蒙古',
@@ -50,7 +50,7 @@ const USER_CONFIG = {
     {
       name: '自己',
       id: 'o2iug6Sx0IQXXCPhgPDDXJZrwSsc',
-      useTemplateId: 'ZVyAwrbDQjaC66qbyzVYyY5UM2FEwAZhu0w8iz13YlE',
+      useTemplateId: '_DdjNxsuyNlkhni0UJpfPbT-PIQuhWTUdmgTGSe6H1M',
       province: '广东',
       city: '广州',
       horoscopeDate: '10-10',
