@@ -83,19 +83,18 @@ const USER_CONFIG = {
   CALLBACK_TEMPLATE_ID: 'O_VRGMhhanmZQds1JpKsU6YYl9fM3nwmqi5uxJ2ENx4',
 
   CALLBACK_USERS: [
-    {
+  {
       name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'o2iug6Sx0IQXXCPhgPDDXJZrwSsc',
-    }
-    {
-      name: '瑶瑶',
+    }，
+     {
+      name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'o2iug6ZZlpvwfJy6uxowlsLHYX0g',
-    }
-  ],
-
-}
+      id: 'o2iug6Sx0IQXXCPhgPDDXJZrwSsc',
+    }，  
+],
+   
 
 module.exports = USER_CONFIG
 
