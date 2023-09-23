@@ -12,10 +12,6 @@ const USER_CONFIG = {
 
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: 'ad4eabbcc58b5b455c08e12f8263f060',
-
-  PROVINCE: '内蒙古',
-  CITY: '呼和浩特',
-
   USERS: [
     {
       // 想要发送的人的名字
@@ -24,8 +20,12 @@ const USER_CONFIG = {
       id: 'o2iug6ZZlpvwfJy6uxowlsLHYX0g',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'GB2adoguvo09NUYpTMYHyXbHWc7c48PV3gEYPJT_V-A',
+        PROVINCE: '内蒙古',
+        CITY: '呼和浩特',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '02-26',
+      horoscopeDateType: '水瓶座',
+      openUrl: 'https://wangxinleo.cn',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
@@ -47,6 +47,35 @@ const USER_CONFIG = {
         { keyword: 'marry_day', date: '2022-09-09' },
       ],
     },
+    {
+      name: '自己',
+      id: 'o2iug6Sx0IQXXCPhgPDDXJZrwSsc',
+      useTemplateId: 'GB2adoguvo09NUYpTMYHyXbHWc7c48PV3gEYPJT_V-A',
+      province: '广东',
+      city: '广州',
+      horoscopeDate: '10-10',
+      horoscopeDateType: '天秤',
+      openUrl: 'https://wangxinleo.cn',
+   festivals: [
+        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        {
+          type: '*生日', name: '自己', year: '1994', date: '09-06',
+        },
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        {
+          type: '生日', name: '自己', year: '1994', date: '10-10',
+        },
+        {
+          type: '节日', name: '相识纪念日', year: '2022', date: '03-19',
+        },
+      ],
+      customizedDateList: [ // 在一起的日子
+        { keyword: 'love_day', date: '2022-03-19' },
+        // 结婚纪念日
+        { keyword: 'marry_day', date: '2022-09-09' },],
+      courseSchedule: null
+    }
+    
   ],
 
 
@@ -58,6 +87,11 @@ const USER_CONFIG = {
       name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'o2iug6Sx0IQXXCPhgPDDXJZrwSsc',
+    }
+    {
+      name: '瑶瑶',
+      // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+      id: 'o2iug6ZZlpvwfJy6uxowlsLHYX0g',
     }
   ],
 
