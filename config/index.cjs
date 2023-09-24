@@ -50,7 +50,7 @@ const USER_CONFIG = {
     {
       name: '自己',
       id: 'o2iug6Sx0IQXXCPhgPDDXJZrwSsc',
-      useTemplateId: 'v0EKL_zwxySPnJj5HUMLb8rHWnVH-p4P18jIDD-UFkk',
+      useTemplateId: 'TQxd354KKMVtIhGdbMI30nU0CS6raN_lnzcpGKeCpwQ',
       province: '广东',
       city: '广州',
       horoscopeDate: '10-10',
